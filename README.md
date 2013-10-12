@@ -1,4 +1,4 @@
-hester.vdeute.com
-=================
+# Hester van Deutekom
 
-Homepage van Hester van Deutekom
+## Communiceren in Eenvoudig Nederlands
+
