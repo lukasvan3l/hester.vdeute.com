@@ -2,10 +2,9 @@
   "name": "hester.vdeute.com",
   "version": "0.0.1",
   "scripts": {
-    "clean": "rm -rf dist && rm -rf docs",
     "parcel": "parcel build --help",
-    "build": "npm run clean && parcel build index.html -d docs",
-    "dev": "npm run clean && parcel index.html --open",
+    "build": "rm -rf docs && parcel build index.html -d docs",
+    "dev": "rm -rf dist && parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
