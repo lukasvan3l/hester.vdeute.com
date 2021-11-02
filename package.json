@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "parcel": "parcel build --help",
-    "build": "rm -rf docs && parcel build index.html -d docs",
+    "build": "rm -rf docs && parcel build index.html -d docs && cp CNAME docs/",
     "dev": "rm -rf dist && parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"

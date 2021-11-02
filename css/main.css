@@ -250,9 +250,12 @@ body {
   line-height: 140%;
   margin-bottom: 40px;
   color: #848d96;
+  font-family: Lora,sans-serif;
 }
 
-
+.right .content p.intro {
+  font-size: 21px;
+}
 
 
 
@@ -270,7 +273,7 @@ body {
   }
   .left {
     /* width: 50%; */
-    flex: 1 100%;
+    flex: 1 120%;
   }
   .left .image {
     position: sticky;
@@ -286,7 +289,7 @@ body {
     /* flex-wrap: nowrap; */
     /* align-items: flex-start; */
     /* align-self: center; */
-    flex: 1 100%;
+    flex: 1 80%;
     /* width: 50%; */
     /* position: relative; */
     /* float: left; */
