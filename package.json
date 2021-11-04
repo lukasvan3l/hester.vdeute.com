@@ -5,6 +5,7 @@
     "parcel": "parcel build --help",
     "build": "rm -rf docs && parcel build index.html -d docs && cp CNAME docs/",
     "dev": "rm -rf dist && parcel index.html --open",
+    "deploy": "firebase deploy",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
